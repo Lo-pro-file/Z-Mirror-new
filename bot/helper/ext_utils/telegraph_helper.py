@@ -26,7 +26,6 @@ class TelegraphHelper:
             LOGGER.info("Creating Telegraph Account...")
         except:
             LOGGER.error('Unable to create Telegraph account.')
-            pass
 
     async def create_page(self, title, content):
         try:
